@@ -5,8 +5,8 @@ public class Challenge {
 
         System.out.println("Casting: " + N1);
 
-        char c = 'G';
         String s = "Testin";
+        char c = 'G';
 
         s = s + c;
         System.out.println(s);
@@ -23,12 +23,12 @@ public class Challenge {
         System.out.println("Value converted of Total Price in dollars $: " + convertToDollar);
 
         double originalPrice = 23.54;
-        double discountPercentual = 5.60;
-        double convertDiscount = discountPercentual /100;
+        double discount = 5.60;
+        double convertDiscount = discount /100;
         double newPrice = originalPrice - (originalPrice * convertDiscount);
 
         System.out.println("Original Price R$: " + originalPrice);
-        System.out.println("Discount R$: " + discountPercentual);
+        System.out.println("Discount R$: " + discount);
         System.out.println("New Price w/ discount R$: " + newPrice);
     }
 }
